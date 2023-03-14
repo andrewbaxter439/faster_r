@@ -1,5 +1,8 @@
 library(tidyverse)
 
+# First create a big data file...
+source("data/create_some_data.R")
+
 file.info("data/big_data.csv")$size/1024^2
 
 
